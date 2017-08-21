@@ -5,7 +5,7 @@
 const express = require('express');
 
 let
-  app = new express()
+  app = express()
 ;
 
 app.get('/', (req, res) => {

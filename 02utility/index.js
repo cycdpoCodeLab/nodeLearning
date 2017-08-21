@@ -9,7 +9,7 @@ const
 ;
 
 let
-  app = new express()
+  app = express()
 ;
 
 app.get('/', (req, res) => {
