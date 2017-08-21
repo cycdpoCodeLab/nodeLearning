@@ -29,6 +29,10 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
+copy-to@~2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/copy-to/-/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
+
 debug@2.6.8:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
@@ -237,6 +241,13 @@ type-is@~1.6.15:
 unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
+
+utility@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/utility/-/utility-1.12.0.tgz#bd69307863a3884ee58821251215b9872fb84058"
+  dependencies:
+    copy-to "~2.0.1"
+    escape-html "~1.0.3"
 
 utils-merge@1.0.0:
   version "1.0.0"
