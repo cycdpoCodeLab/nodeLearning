@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/cycjimmy/nodeLearning/issues"
   },
-  "homepage": "https://github.com/cycjimmy/nodeLearning#readme"
+  "homepage": "https://github.com/cycjimmy/nodeLearning#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
