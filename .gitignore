@@ -46,3 +46,13 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
+# IDE
+.idea/
+
+# nodejs
+node_modules/
+npm-debug.log
+yarn-error.log
+bower_components/
+
+# project
