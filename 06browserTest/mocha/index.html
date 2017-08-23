@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="//cdn.bootcss.com/chai/4.1.1/chai.min.js"></script>
+    <script>
+      let
+        fibonacci = (num) => {
+          if (typeof num !== 'number') {
+            throw new Error('num should be a number');
+          }
+
+          if (num > 10) {
+            throw new Error('num should <= 10');
+          }
+
+          if (num < 0) {
+            throw new Error('num should >= 0');
+          }
+
+          if (num === 0) {
+            return 0;
+          }
+
+          if (num === 1) {
+            return 1;
+          }
+
+          return fibonacci(num - 1) + fibonacci(num - 2);
+        };
+    </script>
+    <script src="mocha.js"></script>
+    <script>mocha.setup('bdd');</script>
+    <script src="tests.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
