@@ -11,9 +11,6 @@ notifications:
 
 sudo: false
 
-before_install:
-  - chmod +x gradlew
-
 install:
   - npm install
 
