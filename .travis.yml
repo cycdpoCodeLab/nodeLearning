@@ -17,3 +17,7 @@ install:
 cache:
   directories:
     - "node_modules"
+
+script:
+  - mocha ./07supertest
+
