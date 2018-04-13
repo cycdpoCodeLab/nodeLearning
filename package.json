@@ -4,11 +4,12 @@
   "description": "nodeJs learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cyc-test-echo": "cyc-test-echo test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cycjimmy/nodeLearning.git"
+    "url": "git+https://github.com/cycdpoCodeLab/nodeLearning.git"
   },
   "keywords": [
     "node"
@@ -16,9 +17,9 @@
   "author": "cycjimmy <cycjimmy@gmail.com> (https://github.com/cycjimmy)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cycjimmy/nodeLearning/issues"
+    "url": "https://github.com/cycdpoCodeLab/nodeLearning/issues"
   },
-  "homepage": "https://github.com/cycjimmy/nodeLearning#readme",
+  "homepage": "https://github.com/cycdpoCodeLab/nodeLearning#readme",
   "dependencies": {
     "async": "^2.5.0",
     "benchmark": "^2.1.4",
@@ -32,6 +33,7 @@
     "utility": "^1.12.0"
   },
   "devDependencies": {
+    "cyc-test-echo": "^0.0.2",
     "mocha": "^3.5.0",
     "should": "^11.2.1",
     "supertest": "^3.0.0"
