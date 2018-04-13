@@ -1,3 +1,3 @@
 # nodeLearning
 
-[![Build Status](https://travis-ci.org/cycjimmy/nodeLearning.svg?branch=master)](https://travis-ci.org/cycjimmy/nodeLearning)
+[![Build Status](https://travis-ci.org/cycdpoCodeLab/nodeLearning.svg?branch=master)](https://travis-ci.org/cycdpoCodeLab/nodeLearning)
